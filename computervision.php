@@ -67,8 +67,6 @@
             $blobClient->createBlockBlob($containerName, $fileToUpload, $content);
             header('location: computervision.php?containerName='.$containerName);
 
-        } else {
-            header('location: computervision.php');
         }
     }
 ?>
